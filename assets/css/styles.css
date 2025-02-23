@@ -100,20 +100,24 @@ body {
 header {
     color: blue;
     background-color: rgb(161, 183, 199);
-    padding: 0 4rem;
+    padding: 0 2rem;
     /* to make it "stick" on top when users scroll*/
     position: fixed;
     width: 100%;
     /*maybe we need z-index: 99; but we will see later on*/
-    box-shadow: 0 3px 3px #297781;
+    box-shadow: 0 3px 3px #297781; 
+    text-decoration: none;
 }
+
+
+
 
 header nav ul {
   text-decoration: none;
   color: initial;
   letter-spacing: 2px;
   list-style-type: none;
-  margin-bottom: 1em;
+  margin-bottom: 0em;
 }
 
 h1 {
@@ -135,7 +139,40 @@ br {
   box-shadow: 0 9px 9px #3a565a;
 }
 
+
 footer {
     color: green;
     background-color: violet;
+}
+
+@media screen and (min-width: 768px) {
+    #main_menu_list {
+      color: blue;
+      background-color: rgb(161, 183, 199);
+      padding: 0 9rem;
+      /* to make it "stick" on top when users scroll*/
+      position: fixed;
+      width: 100%;
+      /*maybe we need z-index: 99; but we will see later on*/
+      /* box-shadow: 0 9px 9px #297781; */
+      position: relative;
+    }
+    #item_food {
+      padding: 0 5%;
+    }
+    #item_contact {
+      padding: 0 20%;
+    }
+    #item_loyalty {
+      padding: 0 35%;
+    }
+    #item_about {
+      padding: 0 60%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+  #main_menu_list a:hover {
+    border-bottom: 3px solid #c50ae2;
+  }
 }
