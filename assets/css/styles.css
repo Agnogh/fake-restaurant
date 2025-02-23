@@ -98,18 +98,30 @@ body {
 
 
 header {
-    color: red;
-    background-color: gray;
+    color: blue;
+    background-color: rgb(97, 125, 147);
+    padding: 0 4rem;
+    /* to make it "stick" on top when users scroll*/
+    position: fixed;
+    width: 100%;
+    /*maybe we need z-index: 99; but we will see later on*/
+    box-shadow: 0 3px 3px #205a62;
 }
 
 h1 {
   font-family: "oswald" sans-serif;
+  text-align: center;
+
 }
 
 main {
     color: blue;
     background-color: yellowgreen;
     flex: 1 0 auto
+}
+
+br {
+  box-shadow: 0 9px 9px #3a565a;
 }
 
 footer {
