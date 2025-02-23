@@ -158,16 +158,16 @@ footer {
       position: relative;
     }
     #item_food {
-      padding: 0 5%;
+      padding: 0 1%;
     }
     #item_contact {
-      padding: 0 20%;
+      padding: 0 15%;
     }
     #item_loyalty {
-      padding: 0 35%;
+      padding: 0 25%;
     }
     #item_about {
-      padding: 0 60%;
+      padding: 0 40%;
     }
 }
 
