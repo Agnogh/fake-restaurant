@@ -99,18 +99,29 @@ body {
 
 header {
     color: blue;
-    background-color: rgb(97, 125, 147);
+    background-color: rgb(161, 183, 199);
     padding: 0 4rem;
     /* to make it "stick" on top when users scroll*/
     position: fixed;
     width: 100%;
     /*maybe we need z-index: 99; but we will see later on*/
-    box-shadow: 0 3px 3px #205a62;
+    box-shadow: 0 3px 3px #297781;
+}
+
+header nav ul {
+  text-decoration: none;
+  color: initial;
+  letter-spacing: 2px;
+  list-style-type: none;
+  margin-bottom: 1em;
 }
 
 h1 {
   font-family: "oswald" sans-serif;
   text-align: center;
+  letter-spacing: 3px;
+  color: #1316a7;
+  text-decoration: none;
 
 }
 
