@@ -93,6 +93,7 @@ body {
     flex-direction: column;
     color: #34a4b3;
     font-family: "Lato", "sour", serif;
+    text-wrap: balance;
 
 }
 
@@ -120,6 +121,7 @@ header {
   margin-bottom: 0em;
   justify-content: space-evenly;
   text-size-adjust: 80%;
+  text-wrap: balance;
 }
 
 h1 {
@@ -133,8 +135,16 @@ h1 {
 
 main {
     color: blue;
-    background-color: yellowgreen;
-    flex: 1 0 auto
+  /*  background-color: yellowgreen; */
+    flex: 1 0 auto;
+    
+}
+
+#main_picture {
+  height: max-content;
+  width: 100%;
+  background: url(../images/cooked_food_1.jpg) no-repeat center center/cover;
+  color: black;
 }
 
 br {
@@ -160,7 +170,7 @@ footer {
   #main_menu_list {
     color: rgb(63, 63, 212);
     background-color: rgb(96, 169, 221);
-    padding: 1 0rem;
+    padding: 5 0rem;
     /* to make it "stick" on top when users scroll*/
   /*  position: fixed; */
     width: 100%;
@@ -173,6 +183,8 @@ footer {
     font-size: 100%;
     margin-top: 3%;
     margin-bottom: 3%;
+    margin-left: 6%;
+    margin-right: 6%;
   }
 
   #landing_page_title {
@@ -201,11 +213,11 @@ footer {
 
     }
     #item_contact {
-      padding: 1% 5%;
+      padding: 1% 1%;
 
     }
     #item_loyalty {
-      padding: 1% 5%;
+      padding: 1% 1%;
 
     }
     #item_about {
