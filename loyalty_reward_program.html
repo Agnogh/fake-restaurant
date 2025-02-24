@@ -54,23 +54,23 @@
                 <input id="email_field" type="email" name="email" placeholder="Your email" required></label>           
                 <br>
                 <input type="checkbox" id="wanting_cupons" name="wanting_cupons" required>
-                <label for="wanting_cupons">I want discount (send to email)</label>
+                <label for="wanting_cupons">Subscribe me</label>
                 <br>
                 <input type="submit" value="Subscribe me">
             
             </section>
-
+           
             <section id="text_over_picture3">
-                <p>How many times a month do you go to the restaurant ?</p>
+            <label name="dropdown_menu">How often do you go to the restaurant ?</label>
+                <select id="dropdown_menu">
+                    <option>Once a moonth</option>
+                    <option>2-3 times</option>
+                    <option>4-7 times</option>
+                    <option>8+ times</option>
+                </select>
                 <br>
-                <input id="once" name="visit_freq" value="1" type="radio" required>
-                <label for="once"> 1 </label>
-                <input id="few" name="visit_freq" value="2-3" type="radio" required>
-                <label for="few"> 2-3 </label>
-                <input id="several" name="visit_freq" value="4-7" type="radio" required>
-                <label for="several"> 4-7 </label>
-                <input id="lots" name="visit_freq" value="8< " type="radio" required>
-                <label for="lots"> 8+ </label>
+                <label for="wanting_cupons">I want discount (send to email)</label>
+                <input type="submit" value="Get cupons">
             </section>
         </main>
         
@@ -89,7 +89,5 @@
                         aria-label="find us on Twitter page (this will open in a new tab)"><i class="fa-brands fa-square-twitter"></i></li>
                 </ul>
             </footer>
-    
-
 </body>
 </html>
