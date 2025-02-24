@@ -160,6 +160,9 @@ h1 {
   padding-left: 5%;
   width: 75%;
   color: rgb(214, 252, 0);
+/*we will want this for larger screens
+  left: 5%; */
+  box-shadow: 0 2px 2px #ff1e00;
 }
 
 #text_over_picture2 {
@@ -168,10 +171,13 @@ h1 {
   position: absolute;
   bottom: 45%;
   margin-left: 10%;
-/*  padding-right: 20%;
-  padding-left: 20%; */
-  width: auto;
+  padding-left: 10%;
+/*we will want this for larger screens
+  right: 5%; */
+/*  padding-right: 20%; */
+  width:fit-content;
   color: rgb(214, 252, 0);
+  box-shadow: 0 2px 2px #ff1e00;
 }
 
 #text_over_picture3 {
@@ -181,10 +187,14 @@ h1 {
   bottom: 15%;
   margin-right: 10%;
   padding-left: 5%;
+/*we will want this for larger screens
+  right: 10%;
+  left: 10%; */
 /*  padding-right: 20%;
   padding-left: 20%; */
   width: auto;
   color: rgb(214, 252, 0);
+  box-shadow: 0 2px 2px #ff1e00;
 }
 
 br {
@@ -228,6 +238,7 @@ footer {
   #landing_page_title {
     font-size: 160%;
   }
+
 }
 
 
