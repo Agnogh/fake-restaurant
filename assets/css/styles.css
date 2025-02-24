@@ -169,7 +169,7 @@ h1 {
   background-color: rgba(49, 60, 43, 0.7);
   font-size: 130%;
   position: absolute;
-  bottom: 45%;
+  bottom: 35%;
   margin-left: 10%;
   padding-left: 10%;
 /*we will want this for larger screens
@@ -205,6 +205,10 @@ br {
 footer {
     color: green;
     background-color: rgb(47, 148, 221);
+}
+
+a {
+  color: rgb(214, 252, 0);
 }
 
 #social-media-platforms {
@@ -285,22 +289,31 @@ footer {
     left: 15%;
     right: 50%;
     width:fit-content;
+      #text_over_picture {
+    left: 15%;
+    right: 50%;
+    width:fit-content;
+    font-size: 200%;
   }
+}
 
   #text_over_picture2 {
     right: 5%;
     left: 25%;
     width:fit-content;
-
+    font-size: 200%;
   }
   
   #text_over_picture3 {
     right: 25%;
     left: 20%; 
     width:fit-content;
+    font-size: 200%;
   }
 
+
 }
+
 
 @media screen and (min-width: 992px) {
   #main_menu_list a:hover {
@@ -311,19 +324,46 @@ footer {
     left: 10%;
     right: 15%;
     width:fit-content;
+    font-size: 200%;
   }
 
   #text_over_picture2 {
     right: 10%;
     left: 15%;
     width:fit-content;
-
+    font-size: 200%;
   }
   
   #text_over_picture3 {
     right: 15%;
-    left: 15%; 
+    left: 15%;
     width:fit-content;
+    font-size: 200%;
   }
 
 }
+/*
+@media screen and (width: 1024px) {
+  #text_over_picture {
+    left: 10%;
+    right: 15%;
+    width:fit-content;
+    font-size: 160%;
+  }
+
+  #text_over_picture2 {
+    right: 10%;
+    left: 15%;
+    width:fit-content;
+    font-size: 160%;
+  }
+  
+  #text_over_picture3 {
+    right: 15%;
+    left: 15%;
+    width:fit-content;
+    font-size: 160%;
+  }
+
+
+} 
