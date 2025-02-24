@@ -7,17 +7,17 @@
 
 ### User goals ###
 
-- Fiding a place distant from all civilization and polution (calm and filled with tranquility)
+- Finding a place distant from all civilization and pollution (calm and filled with tranquillity)
 - Trying out the food not by any standards or specific recipes
 - Taste something different 
-- Different enviroment
+- Different environment
 - Different theme  
 
 ### Site owner goal ###
 
-- Provide unique experience
-- Attract specific type of people (passangers on a long voyage)
-- Attract people that want to experience peace, calm, good food and rest from long voyage
+- Provide a unique experience
+- Attract specific types of people (passengers on a long voyage)
+- Attract people who want to experience peace, calm, good food and rest from a long voyage
 - Promote business
 - Provide basic but unique food choice
 - Provide basic information on how the restaurant came to be
@@ -25,15 +25,15 @@
 
 ## User Exp ##
 ### Targeted group ###
-- People who are travelers on specific route
-- People who appreciate good, unique food, atmosphere and enviroment
+- People who are travelers on a specific route
+- People who appreciate good, unique food, atmosphere and environment
 - People who like peace and calm, sun and waves, palm beaches and do not mind the sand
 - Anyone who wants to escape busy street (or law)
 
 ### User expectation ###
-- Simple directions (it is the only island in 100 of miles away)
-- Limited food choice but with excelent quality and unique ingredients
-- Warm and nice weather, palm trees, chill atmosphere, relax mood, delicious food
+- Simple directions (it is the only island 100 miles away)
+- Limited food choices but with excellent quality and unique ingredients
+- Warm and nice weather, palm trees, chill atmosphere, relaxed mood, delicious food
 - Affordable prices 
 
 #### 1st time users ####
@@ -45,11 +45,11 @@
 #### Returning users ####
 - I want to continue getting discounts
 - I want to try other dishes
-- I want to experience I had 1st time around
+- I want to experience what I had 1st time around
 - I want contact details so I can reserve a spot
 
 #### Owner of the restaurant ####
-- I want more subscribers so I can share updates regulary and increase potential clients
+- I want more subscribers so I can share updates regularly and increase potential clients
 - I want clients to have our contact
 
 ## Design of the webpage ##
@@ -81,19 +81,19 @@ Used "lato", "Oswald", "sour-gummy"
 
 ### Structure ###
 
-To match the style of casual I decided to go wtih straighforward and simpler approach. 
-Making it complex with lots of dropdowm menus (despite consuming less space) is more complex and therefor alignment is getting compormised more easier.
+To match the style of casual I decided to go with a straigh-forward and simpler approach. 
+Making it complex with lots of dropdowm menus (despite consuming less space) is more complex and therefor alignment is getting compromised more easier.
 
-I went with approach that each section has seperate webpage, but user can always return to main page or anz other 4 pages available from the top (all 5 pages have consistent look/appearance) 
+I went with approach that each section has seperate webpage, but user can always return to main page or any other 4 pages available from the top (all 5 pages have consistent look/appearance) 
 
 Home page / Main Page and on top are
 - Food Menu
 - Contact
-- Reward centar (loyalty program)
+- Reward centre  (loyalty program)
 - About us
 Same is repeated when user selects any of the "child" webpages as  other pages, including home page, are shown on the top.
 
-## Techology and tools used ##
+## Technology and tools used ##
 - HTML
 - CSS
 
@@ -103,21 +103,43 @@ Same is repeated when user selects any of the "child" webpages as  other pages, 
 - TextEdit
 - BBEdit
 - Paint
-- Google FOnts
+- Google Fonts
 - Font Awesome
 - Favicon
 - Diff Checker
 - Google FOnts Pairing
 
 ## Feature ##
-The page is made out of 5 seeprate pages and various features on them.
-	
-
-	 
-
-
+The page is made out of 5 separate pages and various features on them.
 		 
+![Navigation bar](https://github.com/user-attachments/assets/8d2ab169-24c4-45fd-8108-a3155c2c1d56)
 
+Footer with social media link
+Listing the most popular social media platforms for an easier way to connect 
+![Social Media](https://github.com/user-attachments/assets/f2ab6bf8-f9a9-45b2-a345-16ec5e88c8b9)
 
+Tab name
+For easier switching between pages depending on what user wants/needs
+![Tab name](https://github.com/user-attachments/assets/1bb54709-f39e-4cd5-b0e5-4c16b7435589)
+
+Main Page
+Hub from where a user is just introduced to the site, but the site is used to navigate to relevant places the user wants
+![Main Menu](https://github.com/user-attachments/assets/131a2cc9-b94e-4944-9a13-bf0f583c073a)
+
+Loyalty page
+Place to increase the number of customers to to sign up process and ability to get discounts
+![Loyalty program](https://github.com/user-attachments/assets/5ca70c46-c458-4f19-98d0-1d2bc1ce1c58)
+
+Food menu
+Gives as a lits of few, specific, custom made dishes
+![Food Menu](https://github.com/user-attachments/assets/c4c7fcce-8bdd-4ee1-afb2-380cdd70c370)
+
+Contact
+Used for getting in touch with us as well as the location where are we located
+![Contact](https://github.com/user-attachments/assets/9880d078-06e5-4319-9f25-f8b9753c39a1)
+
+About us
+Containing a brief history about what is happening at that location, how we came to the idea, why, when
+![About us](https://github.com/user-attachments/assets/e0797a56-9594-4a5f-9989-561d05969d77)
 
 
