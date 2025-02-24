@@ -280,10 +280,50 @@ footer {
   #main_menu_list {
     font-size: 90%;
   }
+
+  #text_over_picture {
+    left: 15%;
+    right: 50%;
+    width:fit-content;
+  }
+
+  #text_over_picture2 {
+    right: 5%;
+    left: 25%;
+    width:fit-content;
+
+  }
+  
+  #text_over_picture3 {
+    right: 25%;
+    left: 20%; 
+    width:fit-content;
+  }
+
 }
 
 @media screen and (min-width: 992px) {
   #main_menu_list a:hover {
     border-bottom: 3px solid #c50ae2;
   }
+
+  #text_over_picture {
+    left: 10%;
+    right: 15%;
+    width:fit-content;
+  }
+
+  #text_over_picture2 {
+    right: 10%;
+    left: 15%;
+    width:fit-content;
+
+  }
+  
+  #text_over_picture3 {
+    right: 15%;
+    left: 15%; 
+    width:fit-content;
+  }
+
 }
