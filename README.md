@@ -111,3 +111,13 @@ Same is repeated when user selects any of the "child" webpages as  other pages, 
 
 ## Feature ##
 The page is made out of 5 seeprate pages and various features on them.
+	
+
+	 
+
+
+		 
+
+
+
+
